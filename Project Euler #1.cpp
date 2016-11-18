@@ -9,6 +9,4 @@ int main()
 			sum += i;
 	}
 	std::cout << sum;
-	char a;
-	std::cin >> a;
 }
