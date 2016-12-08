@@ -12,7 +12,6 @@ int main()
 		p++;
 	}
 	std::cout << p - 1;
-	std::cin.peek();
 	return 0;
 }
 
