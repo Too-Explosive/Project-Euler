@@ -17,6 +17,5 @@ int main()
 		i++;
 	}
 	std::cout << sum - um;
-	std::cin.peek();
 	return 0;
 }
