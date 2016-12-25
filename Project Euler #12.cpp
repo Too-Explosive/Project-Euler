@@ -17,7 +17,6 @@ int main()
 		}
 	}
 	std::cout << num;
-	std::cin.get();
 	return 0;
 }
 
