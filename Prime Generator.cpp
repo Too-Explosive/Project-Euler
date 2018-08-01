@@ -2,7 +2,6 @@
 #include <vector>
 using namespace std;
 
-bool isPrime(int num);
 ofstream fout;
 
 int main()
@@ -30,24 +29,4 @@ int main()
 	}
 	fout.close();
 	return 1;
-}
-
-//Tells if an integer as a prime number
-//Param: An integer, num, to be tested
-//Return: A boolean value, true if num is prime, otherwise false
-bool isPrime(int num)
-{
-	if (num < 2)
-		return false;
-	else if (num == 2)
-		return true;
-	else
-	{
-		for (int i = 2; i < (int)sqrt(num) + 1; i++)
-		{
-			if (num % i == 0)
-				return false;
-		}
-	}
-	return true;
 }
