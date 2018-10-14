@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 #include <fstream>
 
 std::ifstream fin("C:\\Users\\profc\\Desktop\\grid.txt");
